@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Weather Monitoring</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>☁ Cloud Weather Monitoring</h1>
+    <p>Live weather information dashboard</p>
+  </header>
+
+  <main>
+    <section class="search-box">
+      <input id="city" type="text" placeholder="Enter city name">
+      <button id="searchBtn">Search Weather</button>
+    </section>
+
+    <section class="weather-card">
+      <h2 id="cityName">Search for a city</h2>
+      <div id="icon">🌤️</div>
+      <h1 id="temperature">-- °C</h1>
+      <p id="condition">Weather condition</p>
+
+      <div class="details">
+        <div>
+          <h3>Humidity</h3>
+          <p id="humidity">--%</p>
+        </div>
+        <div>
+          <h3>Wind Speed</h3>
+          <p id="wind">-- km/h</p>
+        </div>
+      </div>
+
+      <p id="message">Enter a city to view its weather.</p>
+    </section>
+  </main>
+
+  <footer>Cloud Computing Mini Project</footer>
+  <script src="script.js"></script>
+</body>
+</html>
